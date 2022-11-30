@@ -1,0 +1,56 @@
+/* Base Style */
+body {
+  box-sizing: border-box;
+  font: 10px "Noto Sans KR", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 3.2rem;
+}
+
+h2 {
+  font-size: 2.8rem;
+}
+
+h3 {
+  font-size: 2.4rem;
+}
+
+h4 {
+  font-size: 1.6rem;
+}
+
+.subtitle {
+  font-weight: 600;
+  color: var(--main-gray-color: #C4C4C4);
+}
+
+.m32 {
+  font-size: 3.2rem;
+}
+
+.m28 {
+  font-size: 2.8rem;
+}
+
+.m24 {
+  font-size: 2.4rem;
+}
+
+.m16 {
+  font-size: 1.6rem;
+}
+
+.subtitle::after {
+  content: "오늘 쿠팡이 엄선한 가장 핫한 제품";
+  color: var(--main-gray-color: #C4C4C4);
+}

@@ -1,0 +1,44 @@
+/* 오늘의 발견 */
+* {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.subtitle::after {
+  content: "오늘 쿠팡이 엄선한 가장 핫한 제품";
+  color: var(--main-gray-color: #C4C4C4);
+  color: #c4c4c4;
+}
+
+.product {
+  display: block;
+  width: 1000px;
+  padding: 2px;
+}
+
+.product>a {
+  display: block;
+  text-align: center;
+  margin: 8px;
+  transition: background-color 2s;
+}
+
+.product>a:hover,
+.product>a:focus {
+  border: 1px solid #0096E4;
+  background-color: #0096E4;
+  color: #fff;
+}
+
+.product>a>img {
+  float: left;
+  position: relative;
+}
+
+.product img::after {
+  content: "구매하기";
+  background-color: #c4c4c4;
+  font-size: 16px;
+  position: absolute;
+  z-index: 9;
+}

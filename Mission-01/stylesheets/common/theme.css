@@ -1,0 +1,10 @@
+/* Theme Style */
+:root {
+  --main-red-color: #E52330;
+  --main-blue-color: #0096E4;
+  --main-green-color: #C7CD1D;
+  --main-black-color: #181818;
+  --main-black-tr-color: rgba(0, 0, 0, 0.2);
+  --main-gray-color: #C4C4C4;
+  --main-white-color: #FFFFFF;
+}
