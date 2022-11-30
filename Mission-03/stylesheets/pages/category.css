@@ -1,0 +1,27 @@
+/* 카테고리별 추천 광고상품 */
+.logo img {
+  width: 120px;
+  margin-left: 16px;
+}
+
+.ontitle {
+  margin-bottom: -20px;
+}
+
+.blue {
+  color: #0074E9;
+}
+
+.brown {
+  color: #9D7A6D;
+}
+
+.green {
+  color: #00B599;
+}
+
+.article shortcut-btn {
+  background-image: url(/assets/icon/angle-right-default.svg);
+  width: 32px;
+  height: 32px;
+}

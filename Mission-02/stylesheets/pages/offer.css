@@ -1,0 +1,47 @@
+/* 오늘의 쇼핑 제안 */
+body {
+  text-align: center;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+}
+
+ul li {
+  position: relative;
+  width: 300px;
+}
+
+ul li span {
+  display: flex;
+  justify-content: first baseline;
+}
+
+ul li .locket {
+  width: 60px;
+  display: flex;
+}
+
+ul li .locket img {
+  text-align: left;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.logo-con {
+  background-image: url("/assets/icon/badge-rocket.svg");
+  border: none;
+}
+
+iframe {
+  border: #fff;
+  height: 28px;
+}
+
+.inline {
+  display: inline;
+  text-align: left;
+}
